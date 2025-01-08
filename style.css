@@ -100,8 +100,8 @@ form {
   border: 2px solid dodgerblue;
   height: 2.5rem;
   outline: none;
-  padding-left: 15px;
   width: 50rem;
+  padding-left: 15px;
 }
 
 .form-control:hover {
