@@ -100,8 +100,8 @@ form {
   border: 2px solid dodgerblue;
   height: 2.5rem;
   outline: none;
-  width: 50rem;
   padding-left: 15px;
+  width: 50rem;
 }
 
 .form-control:hover {
@@ -156,7 +156,7 @@ i {
 }
 
 #info {
-  font-size: 1.7rem;
+  font-size: 2rem;
   font-style: italic;
   text-align: right;
 }
@@ -165,12 +165,16 @@ img {
   width: 100%;
 }
 
+#info {
+  font-size: 2.2rem;
+}
 #intropara {
   background: linear-gradient(
     to bottom right,
     darkgoldenrod,
     goldenrod,
     rgb(248, 194, 57)
+
   );
 
   color: white;
@@ -184,8 +188,10 @@ img {
 }
 
 #intropara h2 {
-  font-size: 1.5rem;
+  font-size: 1rem;
+  margin-bottom:auto;
 }
+
 #maininfo {
   padding-top: 3rem;
   margin-top: 0;
