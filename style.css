@@ -147,36 +147,32 @@ h2 {
   font-size: 2.5rem;
 }
 
-h3 {
+/* h3 {
   font-size: 1.8rem;
-}
+} */
 
 i {
   margin-left: 2.5rem;
-}
-
-#info {
-  font-size: 2rem;
-  font-style: italic;
-  text-align: right;
 }
 
 img {
   width: 100%;
 }
 
-#info {
-  font-size: 2.2rem;
-}
+.info {
+  font-size: 1.4rem;
+  text-align: right;
+  }
+
 #intropara {
+  display: flex;
+  justify-content: center;
   background: linear-gradient(
     to bottom right,
     darkgoldenrod,
     goldenrod,
     rgb(248, 194, 57)
-
   );
-
   color: white;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -198,7 +194,7 @@ img {
   font-family: Times;
   text-align: center;
   font-size: 1rem;
-  background: darkblue;
+  background: black;
 }
 
 #mainbackground {
@@ -231,7 +227,7 @@ navbar ul li {
 }
 
 p {
-  font-size: 1.8rem;
+  font-size: 1.3rem;
 }
 
 .services h2 {
@@ -263,7 +259,7 @@ h1.tab {
 }
 
 .services {
-  background: linear-gradient(to bottom right, cyan, mediumblue, midnightblue);
+  background: linear-gradient(to bottom right,mediumblue, midnightblue);
   max-width: 100;
   padding-top: 5rem;
   padding-bottom: 8rem;
