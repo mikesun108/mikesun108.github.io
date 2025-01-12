@@ -96,9 +96,10 @@ form {
 }
 
 .form-control {
-  border-radius: 30px;
+  border-radius: 45px;
   border: 2px solid dodgerblue;
   height: 2.5rem;
+  margin-bottom: 15px;
   outline: none;
   padding-left: 15px;
   width: 50rem;
@@ -116,8 +117,9 @@ form {
 .form-control.submit {
   border: 2px solid dodgerblue;
   text-align: center;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   width: 150px;
+  padding-left:0;
 }
 
 .form-control.submit:hover {
